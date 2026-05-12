@@ -1,5 +1,6 @@
 # dnt303
 ứng dụng đọc truyện di động
+
 A cross-platform manga reader built with Flutter.
 
 This app is a Flutter clone of Tachiyomi mainly to provide an iOS version of the app.
