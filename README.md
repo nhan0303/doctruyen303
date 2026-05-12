@@ -6,7 +6,6 @@ This app is a Flutter clone of Tachiyomi mainly to provide an iOS version of the
 
 This project is still a work in progress.
 
-_WIP_
 
 | Source | Supported |
 | --- | --- |
