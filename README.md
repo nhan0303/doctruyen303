@@ -45,3 +45,37 @@ This project is still a work in progress.
 * Light and dark themes
 * Pure Dark theme
 
+Technology Stack
+Frontend Libraries (Flutter)
+
+Flutter SDK
+
+Flutter Riverpod (State Management)
+
+GoRouter & GoRouter Builder (Routing)
+
+Drift (ORM for SQLite)
+
+Freezed & JSON Serializable (Data Modeling)
+
+Cached Network Image (Image Caching)
+
+Background Downloader (Download Management)
+
+Flutter SVG (Vector Graphics)
+
+Theme Tailor (Theming)
+
+Scrollable Positioned List (UI Scrolling)
+
+Local Database & System Libraries
+
+SQLite (Core Database engine)
+
+sqlite3_flutter_libs (Native SQLite implementation)
+
+Path Provider (Local File System access)
+
+Permission Handler (Permission management)
+
+Logging (System Logs)
