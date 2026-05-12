@@ -1,0 +1,105 @@
+name: flutter_manga_reader
+description: A cross-platform manga reader.
+publish_to: "none"
+homepage: https://github.com/TesteurManiak/flutter_manga_reader
+version: 0.2.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+  flutter: ">=3.29.0 <4.0.0"
+
+workspace:
+  - packages/manga_reader_core
+  - packages/mangabox
+  - packages/mangadex
+  - packages/xpath_selector
+  - packages/xpath_selector_html_parser
+
+dependencies:
+  background_downloader: ^9.5.4
+  cached_network_image: ^3.4.1
+  clock: ^1.1.2
+  collection: ^1.19.0
+  drift: ^2.29.0
+  file_picker: ^11.0.2
+  flutter:
+    sdk: flutter
+  flutter_cache_manager: ^3.4.1
+  flutter_gen: ^5.14.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^3.3.1
+  flutter_svg: ^2.2.4
+  freezed_annotation: ^3.1.0
+  go_router: ^17.2.3
+  http: ^1.6.0
+  intl: ^0.20.2
+  json_annotation: ^4.11.0
+  loader_overlay: ^5.0.0
+  logging: ^1.3.0
+  manga_reader_core:
+    path: packages/manga_reader_core
+  mangabox:
+    path: packages/mangabox
+  mangadex:
+    path: packages/mangadex
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.1
+  protobuf: 2.1.0
+  scrollable_positioned_list: ^0.3.8
+  shared_preferences: ^2.5.5
+  sqlite3_flutter_libs: ^0.5.24
+  theme_tailor_annotation: ^3.1.3
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  alchemist: ^0.14.0
+  build_runner: ^2.15.0
+  build_version: ^2.1.3
+  drift_dev: ^2.29.0
+  fd_lints: ^3.0.0
+  flutter_gen_runner: ^5.14.0
+  flutter_inappwebview: ^6.1.5
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.7
+  flutter_test:
+    sdk: flutter
+  freezed: ^3.2.3
+  go_router_builder: ^4.3.0
+  json_serializable: ^6.13.0
+  mocktail: ^1.0.5
+  theme_tailor: ^3.1.3
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/svgs/
+  fonts:
+    - family: MangaReader
+      fonts:
+        - asset: assets/icons/MangaReader.ttf
+
+# Check the package's documentation to setup the launcher icons
+# https://pub.dev/packages/flutter_native_splash#1-setting-the-splash-screen
+flutter_launcher_icons:
+  image_path: "assets/launcher_icons/icon.png"
+  android: "ic_launcher"
+  min_sdk_android: 22
+  adaptive_icon_background: "#0075ff"
+  ios: true
+  image_path_ios_dark_transparent: "assets/launcher_icons/icon-transparent.png"
+  remove_alpha_ios: true
+  macos:
+    generate: true
+    image_path: "assets/launcher_icons/icon.png"
+
+# Check the package's documentation to setup the splash screen
+# https://pub.dev/packages/flutter_native_splash#1-setting-the-splash-screen
+flutter_native_splash:
+  color: "#0075ff"
+  image: "assets/splash/splash.png"
+  android_12:
+    color: "#0075ff"
+  web: false

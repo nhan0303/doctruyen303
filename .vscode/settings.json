@@ -1,0 +1,14 @@
+{
+    "dart.flutterCreatePlatforms": [
+        "android",
+        "ios",
+        // "linux",
+        // "windows",
+        "macos"
+    ],
+    "search.exclude": {
+        "**/*.g.dart": true,
+        "**/*.freezed.dart": true,
+        "**/*.tailor.dart": true,
+    },
+}

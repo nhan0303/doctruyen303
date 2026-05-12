@@ -1,0 +1,71 @@
+{
+    "Generate part directive": {
+        "prefix": "part",
+        "body": [
+            "part '${TM_FILENAME_BASE}.g.dart';",
+        ]
+    },
+    "Generate freezed part directive": {
+        "prefix": "fpart",
+        "body": [
+            "part '${TM_FILENAME_BASE}.freezed.dart';",
+        ]
+    },
+    "Generate tailor part directive": {
+        "prefix": "tpart",
+        "body": [
+            "part '${TM_FILENAME_BASE}.tailor.dart';",
+        ]
+    },
+    "Get semanticColorTheme": {
+        "prefix": "colorTheme",
+        "description": "Retrieve color theme from context in a variable",
+        "body": [
+            "final colorTheme = context.appColors;",
+        ],
+    },
+    "Get semanticTextTheme": {
+        "prefix": "textTheme",
+        "description": "Retrieve text theme from context in a variable",
+        "body": [
+            "final textTheme = context.appTypography;",
+        ],
+    },
+    "Get Strings": {
+        "prefix": "strings",
+        "description": "Retrieve localization from context in a variable",
+        "body": [
+            "final strings = context.strings;",
+        ],
+    },
+    "Generate Riverpod Notifier": {
+        "prefix": "controller",
+        "description": "Generate a Riverpod Notifier based off riverpod_generator",
+        "body": [
+            "@riverpod",
+            "class $1Controller extends _$$1Controller {",
+            "\t@override",
+            "\tObject build() {",
+            "\t\t// TODO: implement build",
+            "\t\tthrow UnimplementedError();",
+            "\t}",
+            "}",
+        ],
+    },
+     "Create GoRouteData": {
+        "prefix": "goRouteData",
+        "description": "Create a GoRouteData",
+        "body": [
+            "class $1Route extends GoRouteData with _$$1Route {",
+            "\tconst $1Route();",
+            "",
+            "\tstatic const path = '/$1';\n",
+            "",
+            "\t@override",
+            "\tWidget build(BuildContext context, GoRouterState state) {",
+            "\t\treturn Container();",
+            "\t}",
+            "}",
+        ],
+    }
+}

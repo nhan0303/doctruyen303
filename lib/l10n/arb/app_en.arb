@@ -1,0 +1,80 @@
+{
+    "@@locale": "en",
+    "library_title": "Library",
+    "library_empty": "Your library is empty",
+    "updates_title": "Updates",
+    "settings_title": "More",
+    "settings_general": "General",
+    "settings_general_subtitle": "App language, notifications",
+    "settings_general_language": "App language",
+    "settings_general_language_default": "Default",
+    "settings_general_clear_cache": "Clear cache",
+    "settings_appearance": "Appearance",
+    "settings_appearance_subtitle": "Theme, date & time format",
+    "settings_appearance_dark_mode": "Dark mode",
+    "settings_appearance_system_default": "System default",
+    "settings_appearance_disabled": "Disabled",
+    "settings_appearance_enabled": "Enabled",
+    "settings_appearance_pure_dark_mode": "Pure black dark mode",
+    "settings_backup": "Backup & Restore",
+    "settings_backup_tachiyomi_import_title": "Import Tachiyomi/Mihon Backup",
+    "settings_backup_tachiyomi_import_subtitle": "Import library from Tachiyomi backup file",
+    "settings_library": "Library",
+    "settings_library_subtitle": "Categories, global update",
+    "settings_about": "About",
+    "settings_about_version": "Version",
+    "settings_about_open_source_licenses": "Open source licenses",
+    "search_title": "Browse",
+    "history_title": "History",
+    "manga_status_unknown": "Unknown",
+    "manga_status_ongoing": "Ongoing",
+    "manga_status_completed": "Completed",
+    "manga_status_licensed": "Licensed",
+    "manga_status_publishing_finished": "Completed",
+    "manga_status_canceled": "Canceled",
+    "manga_status_on_hiatus": "Hiatus",
+    "generic_error": "Something went wrong",
+    "generic_cancel": "Cancel",
+    "generic_retry": "Retry",
+    "generic_search": "Search...",
+    "details_add_to_library": "Add to library",
+    "details_webview": "WebView",
+    "details_chapter_count": "{count, plural, =0{{count} chapter} =1{{count} chapter} other{{count} chapters}}",
+    "@details_chapter_count": {
+        "placeholders": {
+            "count": {
+                "type": "num"
+            }
+        }
+    },
+    "filter_popular": "Popular",
+    "filter_latest": "Recent",
+    "filter_other": "Filter",
+    "left_to_right": "Left to right",
+    "right_to_left": "Right to left",
+    "webtoon": "Webtoon",
+    "in_library": "In library",
+    "chapter_not_found": "Chapter not found",
+    "manga_not_found": "Manga not found",
+    "chapter_settings_for_this_series": "For this series",
+    "lecture_mode": "Lecture mode",
+    "mark_as_read": "Mark as read",
+    "mark_as_unread": "Mark as unread",
+    "last_page": "Page {page}",
+    "@last_page": {
+        "placeholders": {
+            "page": {
+                "type": "int"
+            }
+        }
+    },
+    "download": "Download",
+    "delete": "Delete",
+    "cache_cleared": "Cache cleared",
+    "no_page_found": "No page found",
+    "no_manga_found": "No manga found",
+    "incognito_mode_enabled": "Incognito mode enabled",
+    "incognito_mode_disabled": "Incognito mode disabled",
+    "invalid_backup": "Invalid backup file",
+    "backup_restored": "Backup restored"
+}
