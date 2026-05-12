@@ -7,6 +7,18 @@ This app is a Flutter clone of Tachiyomi mainly to provide an iOS version of the
 
 This project is still a work in progress.
 
+## Screenshots
+
+| Views | Light | Dark | Pure Dark |
+| --- | --- | --- | --- |
+| Library | <img src="screenshots/light/library.png" height="400"> | <img src="screenshots/dark/library.png" height="400"> | <img src="screenshots/pure_dark/library.png" height="400"> |
+| Explorer | <img src="screenshots/light/explorer.png" height="400"> | <img src="screenshots/dark/explorer.png" height="400"> | <img src="screenshots/pure_dark/explorer.png" height="400"> |
+| Details | <img src="screenshots/light/details.png" height="400">  | <img src="screenshots/dark/details.png" height="400">  | <img src="screenshots/pure_dark/details.png" height="400"> |
+| Reader | <img src="screenshots/light/reader.png" height="400"> | <img src="screenshots/dark/reader.png" height="400"> | <img src="screenshots/pure_dark/reader.png" height="400"> |
+| History | <img src="screenshots/light/history.png" height="400"> | <img src="screenshots/dark/history.png" height="400"> | <img src="screenshots/pure_dark/history.png" height="400"> |
+
+
+##Support source
 
 | Source | Supported |
 | --- | --- |
