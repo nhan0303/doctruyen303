@@ -45,7 +45,8 @@ This project is still a work in progress.
 * Light and dark themes
 * Pure Dark theme
 
-Technology Stack
+##Technology Stack
+
 Frontend Libraries (Flutter)
 
 Flutter SDK
@@ -68,7 +69,7 @@ Theme Tailor (Theming)
 
 Scrollable Positioned List (UI Scrolling)
 
-Local Database & System Libraries
+##Local Database & System Libraries
 
 SQLite (Core Database engine)
 
