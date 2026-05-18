@@ -1,4 +1,17 @@
 # dnt303
+## (
+## Lệnh cài đặt lần lượt là
+
+git clone https://github.com/nhan0303/doctruyen303.git
+
+rồi sau đó mở vscode thư mục chứa code
+
+mở terminal và chạy lệnh flutter pub get
+
+sau khi đã chạy xong thì mở main_dev.dart
+
+=> run
+## )
 ứng dụng đọc truyện di động
 
 A cross-platform manga reader built with Flutter.
